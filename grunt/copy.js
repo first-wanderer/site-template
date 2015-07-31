@@ -13,6 +13,18 @@ module.exports = function(grunt) {
         dest: 'build'
       }]
     },
+    libs: {
+      files: [{
+        expand: true,
+        cwd: 'bower_components',
+        src: [
+        'html5shiv/dist/html5shiv.min.js',
+        'html5shiv/dist/html5shiv-printshiv.min.js',
+        'respond/dest/respond.min.js'
+        ],
+        dest: 'build/libs'
+      }]
+    },
     watchhtml: {
       files: [{
         expand: true,

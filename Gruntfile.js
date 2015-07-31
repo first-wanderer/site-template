@@ -20,6 +20,7 @@ module.exports = function(grunt) {
     'combing',
     'clean:build',
     'copy:build',
+    'copy:libs',
     'less',
     'autoprefixer',
     'cmq'
@@ -37,6 +38,7 @@ module.exports = function(grunt) {
     'combing',
     'clean:build',
     'copy:build',
+    'copy:libs',
     'less',
     'autoprefixer',
     'cmq',
